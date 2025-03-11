@@ -1,7 +1,7 @@
 {
 	"name": "@codeboratory/bunlog",
 	"type": "module",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"license": "MIT",
 	"main": "./dist/cjs/index.js",
 	"module": "./dist/esm/index.js",
