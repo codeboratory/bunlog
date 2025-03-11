@@ -1,4 +1,4 @@
-import type { Level, Params } from "types";
+import type { Level, Params } from "./types.ts";
 
 export const STYLES = {
 	DEBUG: "\x1b[34m",
@@ -9,7 +9,7 @@ export const STYLES = {
 
 export const ICONS = {
 	DEBUG: "•",
-	INFO: "ℹ",
+	INFO: "i",
 	WARN: "!",
 	ERROR: "×",
 } satisfies Record<Level, string>;

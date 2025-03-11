@@ -15,14 +15,7 @@
 		"noUnusedParameters": true,
 		"noPropertyAccessFromIndexSignature": true,
 		"declaration": true,
-		"outDir": "./dist",
-		"baseUrl": ".",
-		"paths": {
-			"types": ["src/types.ts"],
-			"const": ["src/constants.ts"],
-			"utils": ["src/utils.ts"],
-			"logger": ["src/logger.ts"]
-		}
+		"outDir": "./dist"
 	},
 	"exclude": ["node_modules", "dist"]
 }

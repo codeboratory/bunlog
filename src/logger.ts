@@ -1,7 +1,7 @@
 import type { Statement } from "bun:sqlite";
-import { FORMATTER_DEFAULT, LEVEL_PRIORITY, STYLES } from "const";
-import type { Level, LogFunction, Logger, Settings } from "types";
-import { stringify } from "utils";
+import { FORMATTER_DEFAULT, LEVEL_PRIORITY, STYLES } from "./constants.ts";
+import type { Level, LogFunction, Logger, Settings } from "./types.ts";
+import { stringify } from "./utils.ts";
 
 export function createLogger(settings: Settings): Logger {
 	const database = settings.database;

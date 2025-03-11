@@ -1,7 +1,7 @@
 {
 	"name": "@codeboratory/bunlog",
 	"type": "module",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"license": "MIT",
 	"main": "./dist/cjs/index.js",
 	"module": "./dist/esm/index.js",
@@ -22,7 +22,8 @@
 		"build:code": "rolldown -c",
 		"build:types": "tsc -p tsconfig.types.json",
 		"build": "bun run build:code && bun run build:types",
-		"prepublish": "bun run build",
+		"clean": "rm -rf dist",
+		"prepublish": "bun run clean && bun run build",
 		"release": "release-it"
 	},
 	"devDependencies": {
