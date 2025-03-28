@@ -36,6 +36,6 @@ const logger = createLogger({
 
 ## Philosophy
 
-"Bring your own batteries" - We handle the logging, you decide what to do with the data:
+"Bring your own batteries" - We handle the logging, you decide what to do with the data.
 
 *Your logs deserve better than console.log() - but they don't need a complicated solution either.*
